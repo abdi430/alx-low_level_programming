@@ -7,7 +7,7 @@ int main(void)
 {
 	char alpa;
 
-	for (int alpa = 'a'; alpa <= 'z'; alpa++)
+	for (alpa = 'a'; alpa <= 'z'; alpa++)
 	{
 		putchar(alpa);
 	}
