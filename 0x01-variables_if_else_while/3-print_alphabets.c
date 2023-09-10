@@ -2,7 +2,7 @@
 #include<stdlib.h>
 /**
  * main-print alphabets in small and capital
- * return: always 0 (Success)
+ * Return: always 0 (Success)
  */
 int main(void)
 {
