@@ -1,15 +1,16 @@
 #include<stdio.h>
 /**
  * main-prints alphabets
- * return: always 0 (Success)
+ * Return: always 0 (Success)
  */
 int main(void)
 {
 	char alpa;
 
-	for (int alpa = 'a'; i <= 'z'; alpa++)
+	for (int alpa = 'a'; alpa <= 'z'; alpa++)
 	{
 		putchar(alpa);
-		putchar(\n);
 	}
+	putchar('\n');
 	return (0);
+}
