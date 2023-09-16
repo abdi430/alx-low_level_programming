@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * abs - computes alue
+ * _abs - computes alue
  *
  * Return: 0
  * @n: number to be computed
