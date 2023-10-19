@@ -1,5 +1,5 @@
 /*
- * File: 0-print_listint.c
+ * File: print_list.c
  * Auth: Abdi
  */
 
