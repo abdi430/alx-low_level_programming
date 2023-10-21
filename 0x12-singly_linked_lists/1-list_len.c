@@ -1,26 +1,20 @@
-/*
- * File: 1-listint_len.c
- */
-
 #include "lists.h"
-#include <stdio.h>
 
 /**
- * listint_len - Returns the number of elements
- *               in a linked list_t list.
- * @h: A pointer to the head of the list_t list.
- *
- * Return: The number of elements in the list_t list.
+ * list_len - Return the number of elements in a linked list
+ * @h: data type pointer of struct
+ * Return: elements of the str i
  */
-size_t listint_len(const listint_t *h)
+size_t list_len(const list_t *h)
 {
-	size_t nodes = 0;
+	const list_t *tmp;
+	size_t node = 0;
 
-	while (h)
+	tmp = h;
+	while (tmp != NULL)
 	{
-		nodes++;
-		h = h->next;
+		tmp = tmp->next;
+		node++;
 	}
-
-	return (nodes);
+	return (node);
 }
