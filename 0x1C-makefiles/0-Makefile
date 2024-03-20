@@ -1,4 +1,3 @@
-# this rule compile the main program called holberton
-
-all: main.c holberton.c
-	gcc main.c holberton.c -o holberton
+.PHONY: all
+all: main.c
+	gcc main.c school.c -o school
