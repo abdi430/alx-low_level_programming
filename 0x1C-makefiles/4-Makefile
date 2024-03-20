@@ -1,11 +1,11 @@
 CC = gcc
-SRC = main.c holberton.c
+SRC = main.c school.c
 OBJ = $(patsubst %.c,%.o, $(SRC))
-NAME = holberton
+NAME = school
 RM = rm -f
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
-# this rule compile the main program called holberton in the rule all
+# this rule compile the main program called school the rule all
 # using Function for Strings Substitution and Analysis, in this case
 # $(patsubst) pattern, replacement, text)
 

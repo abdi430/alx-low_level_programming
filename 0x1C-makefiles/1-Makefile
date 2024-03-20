@@ -1,7 +1,7 @@
 CC = gcc
-SRC = main.c holberton.c
+SRC = main.c school.c
 
 # this rule compile the main program called holberton
 
 all: $(SRC)
-	$(CC) $(SRC) -o holberton
+	$(CC) $(SRC) -o school
